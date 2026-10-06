@@ -76,15 +76,13 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
-
-        {/* Right Side */}
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-end lg:flex">
           <div className="flex items-center gap-5 text-1xl">
 
             {/* Plan */}
             <div className="flex items-center gap-1 text-white">
               <span className="text-semibold">Plan</span>
-              <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full bg-lime-400 text-[8px] font-bold text-black">
+              <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full bg-lime-400 text-4 font-bold text-black">
                 0
               </span>
             </div>
@@ -92,7 +90,7 @@ const NavBar = () => {
             {/* Saved */}
             <div className="flex items-center gap-1 text-white">
               <span>Saved</span>
-              <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-gray-600 text-[8px] text-gray-300">
+              <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-gray-600 text-4 text-gray-300">
                 0
               </span>
             </div>
