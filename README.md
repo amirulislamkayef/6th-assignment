@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏋️ FITLOG — Workout Library
 
-## Getting Started
+FITLOG is a modern workout library web application that helps users discover workouts, add workouts to their daily plan, and save workouts for later.
 
-First, run the development server:
+The application provides a clean and responsive interface where users can explore different exercises along with their muscle groups, difficulty, duration, calories, ratings, and equipment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- React Toastify
+- Context API
+- REST API
+- JavaScript / JSX
+- Vercel
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. 🏋️ Workout Library
+Users can browse a collection of workouts with useful information such as:
+- Workout name
+- Muscle groups
+- Equipment
+- Difficulty
+- Duration
+- Calories burned
+- Rating
 
-## Learn More
+### 2. 📋 Add Workout to Today's Plan
+Users can add their favorite workouts to their daily workout plan and manage their selected exercises easily.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. 🔖 Save Workout for Later
+Users can save workouts for later. The application also prevents the same workout from being saved multiple times.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. 📱 Responsive Design
+FITLOG is fully responsive and works smoothly across:
+- Desktop
+- Tablet
+- Mobile devices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 5. 🔔 User Feedback & Notifications
+React Toastify is used to provide clear notifications when users:
+- Add a workout to their plan
+- Save a workout
+- Try to save an already saved workout
 
-## Deploy on Vercel
+## 📂 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+FITLOG
+├── app
+├── components
+├── context
+├── public
+├── types
+├── data
+└── README.md
