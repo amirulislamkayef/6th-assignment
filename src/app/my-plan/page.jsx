@@ -206,8 +206,6 @@ const MyPlanPage = () => {
                                             </span>
                                         </div>
 
-
-                                        {/* Calories */}
                                         <div className="flex items-center gap-1.5">
                                             <span className="text-lime-400">
                                                 ◉
@@ -218,8 +216,6 @@ const MyPlanPage = () => {
                                             </span>
                                         </div>
 
-
-                                        {/* Rating */}
                                         <div className="flex items-center gap-1.5">
                                             <span className="text-lime-400">
                                                 ★
