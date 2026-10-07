@@ -4,7 +4,7 @@ import { createContext } from 'react';
 import { useState } from 'react';
 
 
-const WorkoutContext = createContext({})
+export const WorkoutContext = createContext({})
 
 const WorkoutProvider = ({ children }) => {
     const [plan, setPlan] = useState([])

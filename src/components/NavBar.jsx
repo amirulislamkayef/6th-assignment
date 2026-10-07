@@ -1,9 +1,13 @@
+'use client'
 import React from "react";
 import Link from "next/link";
 import logo from "@/assets/logo.png"
 import Image from "next/image";
+import { useContext } from 'react';
+import { WorkoutContext } from '@/context/WorkoutContext';
 
 const NavBar = () => {
+  const { plan, saved } = useContext(WorkoutContext)
   const items = (
     <>
       <li>
@@ -83,7 +87,7 @@ const NavBar = () => {
             <div className="flex items-center gap-1 text-white">
               <span className="text-semibold">Plan</span>
               <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full bg-lime-400 text-4 font-bold text-black">
-                0
+                {plan.length}
               </span>
             </div>
 
@@ -91,7 +95,7 @@ const NavBar = () => {
             <div className="flex items-center gap-1 text-white">
               <span>Saved</span>
               <span className="flex h-3.5 w-3.5 items-center justify-center rounded-full border border-gray-600 text-4 text-gray-300">
-                0
+                {saved.length}
               </span>
             </div>
 
